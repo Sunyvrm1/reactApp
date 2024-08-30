@@ -1,13 +1,18 @@
-import './App.css'
-import Header from "./components/Header.jsx"
+import "./App.css";
+import Header from "./components/Header.jsx";
+import Hero from "./components/Hero.jsx";
+import TextMedia from "./components/TextMedia.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
     <>
-    <Header />
-      <h1 className='text-red-500'>Vite + React</h1>
+      <Header />
+      <Hero />
+      <TextMedia />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

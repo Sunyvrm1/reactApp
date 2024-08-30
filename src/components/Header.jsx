@@ -3,7 +3,7 @@ import logo from "../assets/logo-dark.webp";
 
 const Header = () => {
   return (
-    <div className="py-[25px] bg-slate-200">
+    <div className="py-[25px]">
       <div className="w-10/12 my-0 mx-auto grid grid-cols-3 items-center">
         <nav>
           <ul className="flex gap-[30px]">
